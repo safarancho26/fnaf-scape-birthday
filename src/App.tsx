@@ -345,7 +345,7 @@ function ControlNav({
   active: ControlTab
   onChange: (tab: ControlTab) => void
 }) {
-  const items: { id: ControlTab icon: string label: string meta: string }[] = [
+  const items: { id: ControlTab; icon: string; label: string; meta: string }[] = [
     { id: "home", icon: "⌂", label: "INICIO", meta: "RESUMEN" },
     { id: "cameras", icon: "◉", label: "CÁMARAS", meta: "04 ACTIVAS" },
     { id: "clues", icon: "▤", label: "ARCHIVOS", meta: "01 RECUPERADO" },
