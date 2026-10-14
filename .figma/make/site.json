@@ -1,0 +1,10 @@
+{
+  "description": "Experience a thrilling escape room adventure where players solve puzzles and unlock a virtual door using a security terminal in a haunted pizzeria setting.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
