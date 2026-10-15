@@ -407,7 +407,16 @@ function ControlHome({
         >
           <span className="card-index">01 / VIGILANCIA</span>
           <div className="overview-camera">
-            <img src={cameras[0].image} alt="" />
+            <img
+              src={cameras[0].image}
+              alt={cameras[0].name}
+              onLoad={() => console.log("Imagen cargada:", cameras[0].image)}
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+            />
             <span>CAM 01 · EN VIVO</span>
           </div>
           <div className="overview-card__foot">
@@ -493,7 +502,18 @@ function CameraControl() {
       </div>
       <div className="camera-workspace">
         <div className="main-feed">
-          <img src={camera.image} alt={`Vista de seguridad: ${camera.name}`} />
+
+          <img
+            src={camera.image}
+            alt={camera.name}
+            onLoad={() => console.log("Imagen cargada:", camera.image)}
+            onError={() => console.error("Error al mostrar imagen:", camera.image)}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+            }}
+          />
           <div className="camera-noise" />
           <div className="feed-corners" />
           <header>
