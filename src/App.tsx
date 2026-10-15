@@ -66,33 +66,29 @@ const cameras = [
     id: "CAM 01",
     name: "SALÓN PRINCIPAL",
     status: "MOVIMIENTO",
-    image:
-      "https://images.unsplash.com/photo-1469234496837-d0101f54be3e?auto=format&fit=crop&w=1200&q=70",
-    credit: "Todd Diemer",
+    image: "/cam/cam1.png",
+    credit: "Local Archive",
   },
   {
     id: "CAM 02",
     name: "PASILLO ESTE",
     status: "SEÑAL DÉBIL",
-    image:
-      "https://images.unsplash.com/photo-1616850169334-418a522165e6?auto=format&fit=crop&w=1200&q=70",
-    credit: "Michael Förtsch",
+    image: "/cam/cam2.png",
+    credit: "Local Archive",
   },
   {
     id: "CAM 03",
     name: "COCINA",
     status: "SIN MOVIMIENTO",
-    image:
-      "https://images.unsplash.com/photo-1605474621663-7ed81a1dcd55?auto=format&fit=crop&w=1200&q=70",
-    credit: "Parker Coffman",
+    image: "/cam/cam3.png",
+    credit: "Local Archive",
   },
   {
     id: "CAM 04",
     name: "SALA TRASERA",
     status: "INTERFERENCIA",
-    image:
-      "https://images.unsplash.com/photo-1500398925958-b224455d0828?auto=format&fit=crop&w=1200&q=70",
-    credit: "Patrick Pierre",
+    image: "/cam/cam4.png",
+    credit: "Local Archive",
   },
 ]
 
